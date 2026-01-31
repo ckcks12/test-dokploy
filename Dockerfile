@@ -1,6 +1,6 @@
 FROM node:22-alpine
 WORKDIR /app
 COPY index.js .
-ENV MESSAGE=hello
+ENV MESSAGE=apple
 EXPOSE 80
 CMD ["node", "index.js"]
